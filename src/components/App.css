@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: local('Quicksand_Bold'), url(../fonts/quicksand/Quicksand-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: local('Quicksand_Regular'), url(../fonts/quicksand/Quicksand-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: local('Quicksand_Light'), url(../fonts/quicksand/Quicksand-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: local('Quicksand_Medium'), url(../fonts/quicksand/Quicksand-Medium.ttf) format('truetype');
+}

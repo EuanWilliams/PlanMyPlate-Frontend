@@ -1,0 +1,75 @@
+.header {
+    font: 20px 'Quicksand', sans-serif;
+    width: 100%;
+    height: 200px;
+}
+
+.central_header {
+    width: 80%;
+    margin: auto;
+}
+
+.header_nav {
+    border-bottom: #2575be 2px solid;
+}
+
+.nav_list  {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.nav_list li {
+    display: inline;
+    line-height: 40px;
+    text-decoration: None;
+    border-radius: 3vh;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.nav_list li:hover{
+    cursor: pointer;
+    text-decoration: None;
+    background-color: #8ab7e3;
+}
+
+.nav_link:visited {
+    color: #2575be;
+    text-decoration: none;
+}
+
+.rhs_nav_list {
+    float: right;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.rhs_nav_list li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.header_top{
+    width: 100%;
+    height: 1px;  /* This is to make the header_top visible */
+}
+
+.header_left_half {
+    float: left;
+    width: 100%;
+    text-align: center;
+    /* background-color: green; */
+}
+
+.header_right_half {
+    float: right;
+    width: 50%;
+    /* background-color: aqua; */
+}
