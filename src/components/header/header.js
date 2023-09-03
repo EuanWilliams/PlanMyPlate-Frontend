@@ -3,11 +3,6 @@ import "./header.css";
 import { Link } from 'react-router-dom';
 
 class Header extends React.PureComponent {
-
-  constructor(props){
-    super(props);
-  }
-
   render() {
     return (
       <div className="header">

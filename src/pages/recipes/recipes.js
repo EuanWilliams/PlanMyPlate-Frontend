@@ -1,15 +1,15 @@
+import './recipes.css';
 import React from 'react';
+import Header from '../../components/header/header';
 
 class Recipes extends React.PureComponent {
-  
-  constructor(props){
-    super(props);
-    this.state = {}
-  }
-
   render() {
     return (
-        <h1>NO HOME HERE</h1>
+      <div className="Recipes">
+        <Header />
+        <div className='recipes_container'>
+        </div>
+      </div>
     );
   }
 }

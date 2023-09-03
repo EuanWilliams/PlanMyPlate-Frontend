@@ -15,64 +15,65 @@
         </div>
       </div>
  */
-
+/* Apply CSS to the login container */
 .login_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.login_box {
     display: flex;
     justify-content: center;
-    width: 400px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 40px;
+    align-items: center;
 }
+  
+  /* Style the login box */
+  .login_box {
+    background-color: #fff; /* Background color for the login box */
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    text-align: center;
+    width: 20%;
 
-.login_input {
-    width: 100%;
-    height: 50px;
-    margin-bottom: 25px;
-}
-
-.login_input input {
-  width: 100%;
-  height: 100%;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  outline: none;
-  padding: 0 15px;
-  font-size: 16px;
-}
-
-.login_button {
-  width: 100%;
-  height: 50px;
-  border: none;
-  outline: none;
-  border-radius: 5px;
-  background-color: #f44336;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.login_forgot {
-  text-align: right;
-  font-size: 14px;
-  color: #f44336;
-  cursor: pointer;
-}
-
-.login_register {
-  text-align: center;
-  font-size: 14px;
-  color: #111;
-  cursor: pointer;
-}
-
-
+  }
+  
+  /* Style the login title */
+  .login_title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the login input fields */
+  .login_input input {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style the login button */
+  .login_button {
+    background-color: #2575be; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Add hover effect to the login button */
+  .login_button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  
+  /* Style the "Forgot Password?" and "Register" links */
+  .login_forgot, .login_register {
+    margin-top: 10px;
+    color: #007bff; /* Link color */
+    cursor: pointer;
+  }
+  
+  /* Add hover effect to links */
+  .login_forgot:hover, .login_register:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  

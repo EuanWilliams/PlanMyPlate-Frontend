@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
-import App from './components/App';
 import Home from './pages/home/home';
 import Recipes from './pages/recipes/recipes';
 // import ShoppingList from './pages/shopping-list/shopping_list';
