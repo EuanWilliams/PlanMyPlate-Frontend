@@ -2,7 +2,6 @@ import React from 'react';
 
 import './recipes.css';
 import Header from '../../components/header/header';
-import JWTUtils from '../../utils/jwt_utils';
 
 
 class Recipes extends React.PureComponent {
