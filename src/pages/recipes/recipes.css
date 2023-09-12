@@ -1,5 +1,18 @@
 .recipes_container {
     margin: auto;
-    background-color: green;
     width: 80%;
+}
+
+.recipe_list {
+    margin-top: 2%;
+    padding: 0;
+}
+
+.recipe_list_item  {
+    background-color: lightgray;
+    border: 1px solid black;
+	margin-bottom: 2%;
+    /* border-radius: 5px; */
+    /* margin: 10px;
+    padding: 10px; */
 }
